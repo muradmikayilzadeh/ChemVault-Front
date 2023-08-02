@@ -1,0 +1,41 @@
+#register-form {
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#register-form .wrapper {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#register-form .wrapper input,
+select {
+    outline: none;
+    border: none;
+    height: 3rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1.5rem;
+}
+
+#register-form .submitBtn {
+    background: black;
+    color: white;
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    font-weight: bold;
+    border: none;
+    transition: all .2s ease;
+}
+
+#register-form .submitBtn:hover {
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
