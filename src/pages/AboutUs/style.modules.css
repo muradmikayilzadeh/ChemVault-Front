@@ -1,0 +1,19 @@
+#about-us {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#about-us img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#about-us p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+#about-us {
+    flex-direction: column;
+}
