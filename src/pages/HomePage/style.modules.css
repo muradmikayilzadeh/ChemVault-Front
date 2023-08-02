@@ -1,0 +1,52 @@
+#welcome {
+    display: flex;
+    flex-direction: row;
+}
+
+#welcome .welcome-subpart {
+    flex: 1;
+}
+
+#welcome .welcome-subpart:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#welcome .welcome-subpart h2 {
+    font-weight: bold;
+}
+
+#welcome .welcome-subpart img {
+    width: 80%;
+}
+
+#user-types .user-types-wrapper {
+    display: flex;
+}
+
+#user-types .user-types-wrapper .user-type {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-types .user-types-wrapper .user-type img {
+    width: 30%;
+    border-radius: 100%;
+}
+
+#user-types .user-types-wrapper .user-type p {
+    width: 90%;
+}
+
+#features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    height: 400px;
+}
