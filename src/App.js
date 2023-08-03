@@ -5,6 +5,8 @@ import HomePage from './pages/HomePage';
 import AuthPage from './pages/AuthPage';
 import AboutUs from './pages/AboutUs';
 import RepositoriesPage from './pages/RepositoriesPage';
+import RepositoryPage from './pages/RepositoryPage';
+
 
 
 function App() {
@@ -13,7 +15,8 @@ function App() {
       {/* <HomePage /> */}
       {/* <AuthPage /> */}
       {/* <AboutUs /> */}
-      <RepositoriesPage />
+      {/* <RepositoriesPage /> */}
+      <RepositoryPage />
 
     </div>
   );

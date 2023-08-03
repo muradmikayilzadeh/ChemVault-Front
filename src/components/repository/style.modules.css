@@ -26,6 +26,7 @@
 
 .repository .buttons {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -53,6 +54,7 @@
 }
 
 .viewBtn-light:hover {
+    /* border: 1px solid black; */
     background: black;
     color: white;
 }
