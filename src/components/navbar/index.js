@@ -29,7 +29,7 @@ const Navbar = () => {
                             </li>
                             <li className="nav-item">
                                 <BrowserRouter to="/about">
-                                    <p className="nav-link">Contact Us</p>
+                                    <p className="nav-link">Help</p>
                                 </BrowserRouter>
                             </li>
                         </ul>

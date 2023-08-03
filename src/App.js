@@ -4,6 +4,7 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import AuthPage from './pages/AuthPage';
 import AboutUs from './pages/AboutUs';
+import RepositoriesPage from './pages/RepositoriesPage';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
       {/* <HomePage /> */}
       {/* <AuthPage /> */}
-      <AboutUs />
+      {/* <AboutUs /> */}
+      <RepositoriesPage />
 
     </div>
   );

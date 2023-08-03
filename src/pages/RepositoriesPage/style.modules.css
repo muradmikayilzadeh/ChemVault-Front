@@ -1,0 +1,10 @@
+#repositories {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#repositories .repo-wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
